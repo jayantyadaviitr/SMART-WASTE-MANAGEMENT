@@ -1,0 +1,17 @@
+---
+description: Roorkee Smart Waste Loop — Sociothon demo rules
+alwaysApply: true
+---
+
+# Roorkee Smart Waste Loop
+
+- Project: Sociothon demo, "Roorkee Smart Waste Loop". One Python/Streamlit app plus one audio module. Demo-first: it must run on one laptop, offline-tolerant, in under 2 minutes of setup.
+- The CEO/owner is not a coder: explain every change in plain English, give exact commands to run, keep code simple and commented.
+- Stack: Python 3.10+, Streamlit, Folium (via streamlit-folium) or PyDeck, pandas, numpy, scikit-learn, librosa, scipy, sounddevice, networkx, ortools (or pyvrp), requests, twilio. Pin versions in `requirements.txt`.
+- Build ONE phase at a time. Never start the next phase unless asked. End each phase with its acceptance checks and how I test them.
+- NEVER hardcode result numbers (km saved, % saved, fill %). Every number on screen must be computed from data. Simulated inputs must be labelled "simulated" in the UI.
+- Never invent coordinates. Read zones from `data/zones.csv`, which the team fills in and verifies.
+- Secrets (Twilio keys, phone numbers) only in `.env`, never in code or git. Provide `.env.example`.
+- Every external call (Twilio, OSRM, mic) needs a fallback: pre-recorded audio clips, straight-line distances, and a "dry-run" WhatsApp preview. The demo must never crash on stage.
+- Do NOT copy code from the reference GitHub repos listed in PLAN.md. Most show no licence, so treat them as ideas only.
+- Layout is laptop-first, big fonts, high contrast (it will be on a projector).

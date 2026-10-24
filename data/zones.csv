@@ -1,0 +1,12 @@
+id,name,type,lat,lon,population_weight,base_wet,base_dry,source,verify
+0,IIT Roorkee depot,depot,29.8663509,77.8962074,0,0,0,latlong.net IIT Roorkee,VERIFY
+1,Rajendra / Cautley Bhawan hostels,campus residential,29.87115,77.8968335,1.25,38,18,Wikimapia Cautley Bhawan,VERIFY
+2,Ravindra / Govind Bhawan,campus residential,29.861774,77.8943538,1.20,36,20,Wikimapia Govind Bhawan,VERIFY
+3,Academic zone (Main Building area),campus academic,29.8646399,77.8965758,1.10,16,28,Wikimapia Main Building IIT Roorkee,VERIFY
+4,Canal edge / Saraswati Mandir area,campus/town edge,29.868225,77.897665,0.85,20,22,Saraswati Temple IIT Roorkee listing,VERIFY
+5,Civil Lines Market,market,29.868792,77.886245,1.15,22,34,Deen Dayal Park Civil Lines listing,VERIFY
+6,Ramnagar,residential,29.8732,77.87683,1.05,30,24,Ramnagar Chowk Roorkee listing,VERIFY
+7,Amber Talab,market/residential,29.871852,77.883035,1.00,26,30,Amber Talab / Durga Chowk area listing,VERIFY
+8,Subhash Nagar,residential,29.866496,77.869753,0.95,28,22,Subhash Nagar Roorkee listing,VERIFY
+9,Roorkee Railway Station,transit,29.8523,77.8751,1.30,24,36,Wikipedia Roorkee railway station,VERIFY
+10,Sabzi Mandi (wholesale),market,29.8765,77.889068,1.35,32,40,Sabji Mandi Roorkee listing,VERIFY

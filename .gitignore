@@ -1,0 +1,13 @@
+.env
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.streamlit/
+*.joblib
+!models/.gitkeep
+.DS_Store
+Thumbs.db
+data/audio_samples/**/*.wav
+!data/audio_samples/**/.gitkeep

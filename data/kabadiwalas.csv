@@ -1,0 +1,4 @@
+id,name,phone,lat,lon,covers_zone_id,note
+1,Demo Kabadiwala A,+910000000001,29.868792,77.886245,5,Replace phone after Twilio sandbox join. Simulated contact.
+2,Demo Kabadiwala B,+910000000002,29.8765,77.889068,10,Replace phone after Twilio sandbox join. Simulated contact.
+3,Demo Kabadiwala C,+910000000003,29.8523,77.8751,9,Replace phone after Twilio sandbox join. Simulated contact.
